@@ -1,4 +1,4 @@
-# v0.0.1-dev
+# v0.0.1
 - Initial release
 - Use SMF v0.1.0
 - Add tracking for:
