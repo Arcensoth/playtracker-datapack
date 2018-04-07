@@ -1,0 +1,21 @@
+{
+    "parent": "playtracker:internal/hooks/dealt_damage",
+    "rewards": {
+        "function": "playtracker:hooks/player/dealt_damage/melee"
+    },
+    "criteria": {
+        "deal_melee_damage": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": false,
+                        "is_fire": false,
+                        "is_magic": false,
+                        "is_projectile": false
+                    }
+                }
+            }
+        }
+    }
+}
