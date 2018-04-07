@@ -1,7 +1,7 @@
-# 0.0.1-dev
+# v0.0.1-dev
 - Initial release
-- Using SMF 0.0.1
-- Added tracking for:
+- Use SMF v0.0.2
+- Add tracking for:
     - Sneaking
     - Sprinting
     - Dealing any type of damage
