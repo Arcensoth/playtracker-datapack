@@ -1,6 +1,6 @@
 # v0.0.1-dev
 - Initial release
-- Use SMF v0.0.2
+- Use SMF v0.1.0
 - Add tracking for:
     - Sneaking
     - Sprinting
