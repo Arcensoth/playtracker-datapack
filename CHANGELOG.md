@@ -1,3 +1,6 @@
+# v0.0.2-dev
+- Use SMF v0.2.0
+
 # v0.0.1
 - Initial release
 - Use SMF v0.1.0
