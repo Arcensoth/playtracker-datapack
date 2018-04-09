@@ -1,0 +1,13 @@
+# playtracker:module/list
+
+scoreboard players set $installed smf_temp 0
+scoreboard players operation $installed smf_temp += $installed ptrak_module
+
+scoreboard players set $vdev smf_temp 0
+scoreboard players operation $vdev smf_temp += $vdev ptrak_module
+
+execute if score $installed smf_temp matches 0 run tellraw @a[tag=smf.admin] [{"text":"[Playtracker]", "color": "aqua"}, {"text": " Module is available but not installed.", "color": "red"}, {"text": "  [Install]", "color": "green", "hoverEvent": {"action": "show_text", "value": {"text": "Install", "color": "green"}}, "clickEvent": {"action": "run_command", "value": "/function playtracker:module/autoinstall"}}]
+
+execute if score $installed smf_temp matches 1.. if score $vdev smf_temp matches 0 run tellraw @a[tag=smf.admin] [{"text":"[Playtracker]", "color": "aqua"}, {"text": " Module ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "ptrak_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "ptrak_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "ptrak_module"}}]}, {"text": " is installed.", "color": "white"}, {"text": "  [Reinstall]", "color": "yellow", "hoverEvent": {"action": "show_text", "value": {"text": "Reinstall", "color": "yellow"}}, "clickEvent": {"action": "run_command", "value": "/function playtracker:module/reinstall"}}, {"text": "  [Uninstall]", "color": "red", "hoverEvent": {"action": "show_text", "value": {"text": "Uninstall", "color": "red"}}, "clickEvent": {"action": "run_command", "value": "/function playtracker:module/uninstall"}}]
+
+execute if score $installed smf_temp matches 1.. if score $vdev smf_temp matches 1.. run tellraw @a[tag=smf.admin] [{"text":"[Playtracker]", "color": "aqua"}, {"text": " Module ", "color": "white"}, {"text": "v", "color": "yellow", "extra": [{"score": {"name": "$vmajor", "objective": "ptrak_module"}}, {"text": "."}, {"score": {"name": "$vminor", "objective": "ptrak_module"}}, {"text": "."}, {"score": {"name": "$vpatch", "objective": "ptrak_module"}}]}, {"text": " dev build #", "color": "light_purple", "extra": [{"score": {"name": "$vdev", "objective": "ptrak_module"}}]}, {"text": " is installed.", "color": "white"}, {"text": "  [Reinstall]", "color": "yellow", "hoverEvent": {"action": "show_text", "value": {"text": "Reinstall", "color": "yellow"}}, "clickEvent": {"action": "run_command", "value": "/function playtracker:module/reinstall"}}, {"text": "  [Uninstall]", "color": "red", "hoverEvent": {"action": "show_text", "value": {"text": "Uninstall", "color": "red"}}, "clickEvent": {"action": "run_command", "value": "/function playtracker:module/uninstall"}}]
