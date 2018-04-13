@@ -1,5 +1,5 @@
 # v0.0.3-dev
-- Use SMF v0.4.0
+- Use SMF v0.5.0
 
 # v0.0.2
 - Use SMF v0.2.0
