@@ -2,3 +2,4 @@
 
 function playtracker:player/sneak/tick
 function playtracker:player/sprint/tick
+function playtracker:player/use/tick

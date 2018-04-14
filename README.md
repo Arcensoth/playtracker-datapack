@@ -17,6 +17,7 @@ Objective       | Criteria                                      | Usage     | De
 `ptrak_sprtot`  | `minecraft.custom:minecraft.sprint_one_cm`    | Read-only | Similar to `ptrak_snktot` but for sprinting.
 `ptrak_sprflag` | `minecraft.custom:minecraft.sprint_one_cm`    | Read-only | Similar to `ptrak_snkflag` but for sprinting.
 `ptrak_sprcur`  | `dummy`                                       | Read-only | Similar to `ptrak_snkcur` but for sprinting.
+`ptrak_bowflag` | `minecraft.used:minecraft.bow`                | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
 
 ## Entity tags
 Tag                             | Description
@@ -28,6 +29,9 @@ Tag                             | Description
 `playtracker.sprinting`         | Present on players who are currently sprinting.
 `playtracker.sprinting.started` | Present on players for a single tick when they start sprinting.
 `playtracker.sprinting.stopped` | Present on players for a single tick when they stop sprinting.
+`playtracker.used.bow`          | Present on players for a single tick when they use (fire) a bow.
+`playtracker.used.bow.mainhand` | Present on players for a single tick when they use (fire) a bow in their mainhand.
+`playtracker.used.bow.offhand`  | Present on players for a single tick when they use (fire) a bow in their offhand.
 
 ## Event hooks
 Function tag                                    | Description
@@ -38,3 +42,6 @@ Function tag                                    | Description
 `#playtracker:hooks/player/sneaking/stopped`    | Run by a player when they stop sneaking.
 `#playtracker:hooks/player/sprinting/started`   | Run by a player when they start sprinting.
 `#playtracker:hooks/player/sprinting/stopped`   | Run by a player when they stop sprinting.
+`#playtracker:hooks/player/used/bow`            | Run by a player when they use (fire) a bow.
+`#playtracker:hooks/player/used/bow/mainhand`   | Run by a player when they use (fire) a bow from their mainhand.
+`#playtracker:hooks/player/used/bow/offhand`    | Run by a player when they use (fire) a bow from their offhand.
