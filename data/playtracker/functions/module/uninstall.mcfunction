@@ -1,9 +1,6 @@
 # playtracker:module/uninstall
 
-scoreboard objectives remove ptrak_module
-
-function playtracker:module/api/teardown
-
-tellraw @a[tag=smf.admin] [{"text": "[Playtracker]", "color": "aqua"}, {"text": " Module has been ", "color": "white"}, {"text": "uninstalled", "color": "red"}, {"text": ".", "color": "white"}]
-
-playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
+execute if score $installed ptrak_module matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["playtracker.temp.installed"]}
+execute unless entity @e[tag=playtracker.temp.installed] run tellraw @s [{"text":"[Playtracker]", "color": "aqua"}, {"text": " Module not installed.", "color": "white"}]
+execute if entity @e[tag=playtracker.temp.installed] run function playtracker:module/forceuninstall
+kill @e[tag=playtracker.temp.installed]

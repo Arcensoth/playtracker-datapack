@@ -1,7 +1,6 @@
 # playtracker:module/sync
 
-function playtracker:module/installed
-function playtracker:module/version
+function playtracker:module/values
 
 scoreboard players set $sync temp 0
 

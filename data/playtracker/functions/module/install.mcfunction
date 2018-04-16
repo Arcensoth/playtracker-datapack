@@ -1,21 +1,6 @@
 # playtracker:module/install
 
-scoreboard objectives add temp dummy
-
-function playtracker:module/api/setup
-
-scoreboard objectives add ptrak_module dummy
-scoreboard players set $installed ptrak_module 1
-
-function playtracker:module/version
-
-scoreboard players operation $vmajor ptrak_module = $vmajor temp
-scoreboard players operation $vminor ptrak_module = $vminor temp
-scoreboard players operation $vpatch ptrak_module = $vpatch temp
-scoreboard players operation $vdev ptrak_module = $vdev temp
-
-tellraw @a[tag=smf.admin] [{"text": "[Playtracker]", "color": "aqua"}, {"text": " Module has been ", "color": "white"}, {"text": "installed", "color": "green"}, {"text": ".", "color": "white"}]
-
-playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
-
-function playtracker:module/scan
+execute if score $installed ptrak_module matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["playtracker.temp.installed"]}
+execute unless entity @e[tag=playtracker.temp.installed] run function playtracker:module/forceinstall
+execute if entity @e[tag=playtracker.temp.installed] run tellraw @s [{"text":"[Playtracker]", "color": "aqua"}, {"text": " Module already installed.", "color": "white"}]
+kill @e[tag=playtracker.temp.installed]
