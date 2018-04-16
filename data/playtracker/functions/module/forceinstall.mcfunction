@@ -14,7 +14,7 @@ scoreboard players operation $vminor ptrak_module = $vminor temp
 scoreboard players operation $vpatch ptrak_module = $vpatch temp
 scoreboard players operation $vdev ptrak_module = $vdev temp
 
-tellraw @a[tag=smf.admin] [{"text": "[Playtracker]", "color": "aqua"}, {"text": " Module has been ", "color": "white"}, {"text": "installed", "color": "green"}, {"text": ".", "color": "white"}]
+tellraw @s [{"text": "[Playtracker]", "color": "aqua"}, {"text": " Module has been ", "color": "white"}, {"text": "installed", "color": "green"}, {"text": ".", "color": "white"}]
 
 playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 2 0.5
 
