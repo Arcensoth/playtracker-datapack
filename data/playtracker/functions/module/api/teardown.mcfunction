@@ -9,3 +9,6 @@ scoreboard objectives remove ptrak_snkcur
 scoreboard objectives remove ptrak_sprtot
 scoreboard objectives remove ptrak_sprflag
 scoreboard objectives remove ptrak_sprcur
+
+# common item usage
+scoreboard objectives remove ptrak_bowflag
