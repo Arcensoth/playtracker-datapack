@@ -1,4 +1,4 @@
-# v0.0.4-dev
+# v0.0.4
 - Add usage tracking for:
     - `fishing_rod`
     - `carrot_on_a_stick`
