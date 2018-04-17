@@ -15,7 +15,6 @@ scoreboard objectives add ptrak_usebow minecraft.used:minecraft.bow
 scoreboard objectives add ptrak_usefishrod minecraft.used:minecraft.fishing_rod
 scoreboard objectives add ptrak_usecoas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ptrak_usepearl minecraft.used:minecraft.ender_pearl
-scoreboard objectives add ptrak_useeye minecraft.used:minecraft.ender_eye
 scoreboard objectives add ptrak_usesnoball minecraft.used:minecraft.snowball
 scoreboard objectives add ptrak_usexpbot minecraft.used:minecraft.experience_bottle
 scoreboard objectives add ptrak_usesplpot minecraft.used:minecraft.splash_potion

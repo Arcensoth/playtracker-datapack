@@ -21,7 +21,6 @@ Objective           | Criteria                                      | Usage     
 `ptrak_usefishrod`  | `minecraft.used:minecraft.fishing_rod`        | Read-only | Flag variable for fishing rod usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
 `ptrak_usecoas`     | `minecraft.used:minecraft.carrot_on_a_stick`  | Read-only | Flag variable for carrot on a stick usage. Prefer to use the `playtracker.used.carrot_on_a_stick` [entity tag](#entity-tags).
 `ptrak_usepearl`    | `minecraft.used:minecraft.ender_pearl`        | Read-only | Flag variable for ender pearl usage. Prefer to use the `playtracker.used.ender_pearl` [entity tag](#entity-tags).
-`ptrak_useeye`      | `minecraft.used:minecraft.ender_eye`          | Read-only | Flag variable for ender eye usage. Prefer to use the `playtracker.used.ender_eye` [entity tag](#entity-tags).
 `ptrak_usesnoball`  | `minecraft.used:minecraft.snowball`           | Read-only | Flag variable for snowball usage. Prefer to use the `playtracker.used.snowball` [entity tag](#entity-tags).
 `ptrak_usexpbot`    | `minecraft.used:minecraft.experience_bottle`  | Read-only | Flag variable for experience bottle usage. Prefer to use the `playtracker.used.experience_bottle` [entity tag](#entity-tags).
 `ptrak_usesplpot`   | `minecraft.used:minecraft.splash_potion`      | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
@@ -42,7 +41,6 @@ Tag                                     | Description
 `playtracker.used.bow.offhand`          | Present on players for a single tick when they use a bow in their offhand.
 `playtracker.used.carrot_on_a_stick`    | Present on players for a single tick when they use a carrot on a stick.
 `playtracker.used.ender_pearl`          | Present on players for a single tick when they use a carrot on an ender pearl.
-`playtracker.used.ender_eye`            | Present on players for a single tick when they use a carrot on an ender eye.
 `playtracker.used.snowball`             | Present on players for a single tick when they use a carrot on a snowball.
 `playtracker.used.experience_bottle`    | Present on players for a single tick when they use a carrot on an experience bottle.
 `playtracker.used.splash_potion`        | Present on players for a single tick when they use a carrot on a splash potion.
@@ -62,7 +60,6 @@ Function tag                                        | Description
 `#playtracker:hooks/player/used/bow/offhand`        | Run by a player when they use a bow from their offhand.
 `#playtracker:hooks/player/used/carrot_on_a_stick`  | Run by a player when they use a carrot on a stick.
 `#playtracker:hooks/player/used/ender_pearl`        | Run by a player when they use a carrot on an ender pearl.
-`#playtracker:hooks/player/used/ender_eye`          | Run by a player when they use a carrot on an ender eye.
 `#playtracker:hooks/player/used/snowball`           | Run by a player when they use a carrot on a snowball.
 `#playtracker:hooks/player/used/experience_bottle`  | Run by a player when they use a carrot on an experience bottle.
 `#playtracker:hooks/player/used/splash_potion`      | Run by a player when they use a carrot on a splash potion.
