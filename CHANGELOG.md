@@ -1,4 +1,4 @@
-# v0.0.5-dev
+# v0.0.5
 - Add usage tracking for:
     - `egg`
 - Remove bugged ender eye usage stat
