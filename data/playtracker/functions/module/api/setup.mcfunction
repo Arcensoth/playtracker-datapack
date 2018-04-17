@@ -16,6 +16,7 @@ scoreboard objectives add ptrak_usefishrod minecraft.used:minecraft.fishing_rod
 scoreboard objectives add ptrak_usecoas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ptrak_usepearl minecraft.used:minecraft.ender_pearl
 scoreboard objectives add ptrak_usesnoball minecraft.used:minecraft.snowball
+scoreboard objectives add ptrak_useegg minecraft.used:minecraft.egg
 scoreboard objectives add ptrak_usexpbot minecraft.used:minecraft.experience_bottle
 scoreboard objectives add ptrak_usesplpot minecraft.used:minecraft.splash_potion
 scoreboard objectives add ptrak_uselinpot minecraft.used:minecraft.lingering_potion

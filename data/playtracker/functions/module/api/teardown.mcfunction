@@ -16,6 +16,7 @@ scoreboard objectives remove ptrak_usefishrod
 scoreboard objectives remove ptrak_usecoas
 scoreboard objectives remove ptrak_usepearl
 scoreboard objectives remove ptrak_usesnoball
+scoreboard objectives remove ptrak_useegg
 scoreboard objectives remove ptrak_usexpbot
 scoreboard objectives remove ptrak_usesplpot
 scoreboard objectives remove ptrak_uselinpot

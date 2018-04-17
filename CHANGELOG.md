@@ -1,4 +1,6 @@
 # v0.0.5-dev
+- Add usage tracking for:
+    - `egg`
 - Remove bugged ender eye usage stat
     - Apparently there's no way to track number of ender eye throws, only portal frame placement
 
