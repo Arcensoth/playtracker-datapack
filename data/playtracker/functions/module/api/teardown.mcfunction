@@ -12,3 +12,11 @@ scoreboard objectives remove ptrak_sprcur
 
 # common item usage
 scoreboard objectives remove ptrak_bowflag
+scoreboard objectives remove ptrak_usefishrod
+scoreboard objectives remove ptrak_usecoas
+scoreboard objectives remove ptrak_usepearl
+scoreboard objectives remove ptrak_useeye
+scoreboard objectives remove ptrak_usesnoball
+scoreboard objectives remove ptrak_usexpbot
+scoreboard objectives remove ptrak_usesplpot
+scoreboard objectives remove ptrak_uselinpot

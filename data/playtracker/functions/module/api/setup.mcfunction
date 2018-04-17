@@ -12,3 +12,11 @@ scoreboard objectives add ptrak_sprcur dummy
 
 # common item usage
 scoreboard objectives add ptrak_bowflag minecraft.used:minecraft.bow
+scoreboard objectives add ptrak_usefishrod minecraft.used:minecraft.fishing_rod
+scoreboard objectives add ptrak_usecoas minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add ptrak_usepearl minecraft.used:minecraft.ender_pearl
+scoreboard objectives add ptrak_useeye minecraft.used:minecraft.ender_eye
+scoreboard objectives add ptrak_usesnoball minecraft.used:minecraft.snowball
+scoreboard objectives add ptrak_usexpbot minecraft.used:minecraft.experience_bottle
+scoreboard objectives add ptrak_usesplpot minecraft.used:minecraft.splash_potion
+scoreboard objectives add ptrak_uselinpot minecraft.used:minecraft.lingering_potion

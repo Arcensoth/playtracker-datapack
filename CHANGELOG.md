@@ -1,3 +1,14 @@
+# v0.0.4-dev
+- Add usage tracking for:
+    - `fishing_rod`
+    - `carrot_on_a_stick`
+    - `ender_pearl`
+    - `ender_eye`
+    - `snowball`
+    - `experience_bottle`
+    - `splash_potion`
+    - `lingering_potion`
+
 # v0.0.3
 - Use SMF v0.6.0
 - Add tracking for:
