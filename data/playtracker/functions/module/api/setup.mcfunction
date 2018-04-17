@@ -11,7 +11,7 @@ scoreboard objectives add ptrak_sprflag minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add ptrak_sprcur dummy
 
 # common item usage
-scoreboard objectives add ptrak_bowflag minecraft.used:minecraft.bow
+scoreboard objectives add ptrak_usebow minecraft.used:minecraft.bow
 scoreboard objectives add ptrak_usefishrod minecraft.used:minecraft.fishing_rod
 scoreboard objectives add ptrak_usecoas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ptrak_usepearl minecraft.used:minecraft.ender_pearl

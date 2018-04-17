@@ -17,7 +17,7 @@ Objective       | Criteria                                      | Usage     | De
 `ptrak_sprtot`  | `minecraft.custom:minecraft.sprint_one_cm`    | Read-only | Similar to `ptrak_snktot` but for sprinting.
 `ptrak_sprflag` | `minecraft.custom:minecraft.sprint_one_cm`    | Read-only | Similar to `ptrak_snkflag` but for sprinting.
 `ptrak_sprcur`  | `dummy`                                       | Read-only | Similar to `ptrak_snkcur` but for sprinting.
-`ptrak_bowflag` | `minecraft.used:minecraft.bow`                | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
+`ptrak_usebow`  | `minecraft.used:minecraft.bow`                | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
 
 ## Entity tags
 Tag                             | Description
