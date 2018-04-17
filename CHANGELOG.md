@@ -1,4 +1,4 @@
-# v0.0.3-dev
+# v0.0.3
 - Use SMF v0.6.0
 - Add tracking for:
     - Bow usage (mainhand, offhand, either)
