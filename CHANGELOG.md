@@ -1,3 +1,6 @@
+# v0.0.6-dev
+- Fix exponential player tick dispatch
+
 # v0.0.5
 - Add usage tracking for:
     - `egg`
