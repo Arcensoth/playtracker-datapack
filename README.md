@@ -31,6 +31,7 @@ Objective           | Criteria                                      | Usage     
 Tag                                     | Description
 --------------------------------------- | -----------
 `playtracker.debug`                     | Present on players who are debugging the module.
+`playtracker.ignore`                    | Present on players who are not being tracked.
 `playtracker.sneaking`                  | Present on players who are currently sneaking.
 `playtracker.sneaking.started`          | Present on players for a single tick when they start sneaking.
 `playtracker.sneaking.stopped`          | Present on players for a single tick when they stop sneaking.
