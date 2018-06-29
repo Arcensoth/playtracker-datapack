@@ -40,11 +40,11 @@ Tag                                     | Description
 `playtracker.used.bow.mainhand`         | Present on players for a single tick when they use a bow in their mainhand.
 `playtracker.used.bow.offhand`          | Present on players for a single tick when they use a bow in their offhand.
 `playtracker.used.carrot_on_a_stick`    | Present on players for a single tick when they use a carrot on a stick.
-`playtracker.used.ender_pearl`          | Present on players for a single tick when they use a carrot on an ender pearl.
-`playtracker.used.snowball`             | Present on players for a single tick when they use a carrot on a snowball.
-`playtracker.used.experience_bottle`    | Present on players for a single tick when they use a carrot on an experience bottle.
-`playtracker.used.splash_potion`        | Present on players for a single tick when they use a carrot on a splash potion.
-`playtracker.used.lingering_potion`     | Present on players for a single tick when they use a carrot on a lingering potion.
+`playtracker.used.ender_pearl`          | Present on players for a single tick when they use an ender pearl.
+`playtracker.used.snowball`             | Present on players for a single tick when they use a snowball.
+`playtracker.used.experience_bottle`    | Present on players for a single tick when they use an experience bottle.
+`playtracker.used.splash_potion`        | Present on players for a single tick when they use a splash potion.
+`playtracker.used.lingering_potion`     | Present on players for a single tick when they use a lingering potion.
 
 ## Event hooks
 Function tag                                        | Description
@@ -59,8 +59,8 @@ Function tag                                        | Description
 `#playtracker:hooks/player/used/bow/mainhand`       | Run by a player when they use a bow from their mainhand.
 `#playtracker:hooks/player/used/bow/offhand`        | Run by a player when they use a bow from their offhand.
 `#playtracker:hooks/player/used/carrot_on_a_stick`  | Run by a player when they use a carrot on a stick.
-`#playtracker:hooks/player/used/ender_pearl`        | Run by a player when they use a carrot on an ender pearl.
-`#playtracker:hooks/player/used/snowball`           | Run by a player when they use a carrot on a snowball.
-`#playtracker:hooks/player/used/experience_bottle`  | Run by a player when they use a carrot on an experience bottle.
-`#playtracker:hooks/player/used/splash_potion`      | Run by a player when they use a carrot on a splash potion.
-`#playtracker:hooks/player/used/lingering_potion`   | Run by a player when they use a carrot on a lingering potion.
+`#playtracker:hooks/player/used/ender_pearl`        | Run by a player when they use an ender pearl.
+`#playtracker:hooks/player/used/snowball`           | Run by a player when they use a snowball.
+`#playtracker:hooks/player/used/experience_bottle`  | Run by a player when they use an experience bottle.
+`#playtracker:hooks/player/used/splash_potion`      | Run by a player when they use a splash potion.
+`#playtracker:hooks/player/used/lingering_potion`   | Run by a player when they use a lingering potion.
