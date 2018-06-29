@@ -1,4 +1,4 @@
-# v0.0.6-dev
+# v0.0.6
 - Fix exponential player tick dispatch
 
 # v0.0.5
