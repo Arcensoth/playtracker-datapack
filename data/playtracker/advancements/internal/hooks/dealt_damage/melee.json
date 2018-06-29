@@ -9,7 +9,7 @@
             "conditions": {
                 "damage": {
                     "type": {
-                        "is_projectile": false,
+                        "is_explosion": false,
                         "is_fire": false,
                         "is_magic": false,
                         "is_projectile": false
