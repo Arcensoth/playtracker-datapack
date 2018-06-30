@@ -1,4 +1,4 @@
-# v0.0.7-dev
+# v0.0.7
 - Allow players to be ignored
 - Fix damage_dealt/melee hook not excluding explosion damage
 - Add hooks for:
