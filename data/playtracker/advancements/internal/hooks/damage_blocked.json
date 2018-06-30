@@ -1,0 +1,16 @@
+{
+    "parent": "playtracker:internal/hooks",
+    "rewards": {
+        "function": "playtracker:hooks/player/damage_blocked"
+    },
+    "criteria": {
+        "block_damage": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true
+                }
+            }
+        }
+    }
+}

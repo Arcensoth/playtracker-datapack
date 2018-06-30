@@ -1,0 +1,18 @@
+{
+    "parent": "playtracker:internal/hooks/damage_taken",
+    "rewards": {
+        "function": "playtracker:hooks/player/damage_taken/fire"
+    },
+    "criteria": {
+        "take_fire_damage": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_fire": true
+                    }
+                }
+            }
+        }
+    }
+}

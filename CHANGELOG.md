@@ -5,6 +5,7 @@
   - Dealing explosion/fire/magic/projectile damage
   - Taking explosion/fire/magic/melee/projectile damage
   - Blocking damage
+- Rename damage hooks
 
 # v0.0.6
 - Fix exponential player tick dispatch
