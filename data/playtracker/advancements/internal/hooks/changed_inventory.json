@@ -1,0 +1,11 @@
+{
+    "parent": "playtracker:internal/hooks",
+    "rewards": {
+        "function": "playtracker:hooks/player/changed_inventory"
+    },
+    "criteria": {
+        "change_inventory": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    }
+}
