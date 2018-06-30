@@ -40,6 +40,9 @@ Tag                                     | Description
 `playtracker.dead`                      | Present on players who are currently dead.
 `playtracker.died`                      | Present on players for a single tick when they die.
 `playtracker.respawned`                 | Present on players for a single tick when they respawn.
+`playtracker.grounded`                  | Present on players who are currently on the ground.
+`playtracker.grounded.started`          | Present on players for a single tick when they hit the ground.
+`playtracker.grounded.stopped`          | Present on players for a single tick when they leave the ground.
 `playtracker.jumping`                   | Present on players for as long as they remain airborne after jumping.
 `playtracker.jumping.started`           | Present on players for a single tick when they jump.
 `playtracker.jumping.stopped`           | Present on players for a single tick when they land from a jump.

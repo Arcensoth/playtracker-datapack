@@ -10,8 +10,7 @@ execute as @s[tag=!playtracker.jumping,scores={ptrak_jumpflag=1..}] run function
 tag @s[tag=playtracker.jumping.stopped] remove playtracker.jumping.stopped
 
 # If I'm grounded but still have the jumping tag, I must have just landed.
-execute as @s[tag=playtracker.jumping,nbt={OnGround:1b}] run function playtracker:player/jump/stop
-# TODO execute as @s[tag=playtracker.jumping,tag=playertracker.grounded] run function playtracker:player/jump/stop
+execute as @s[tag=playtracker.jumping,tag=playtracker.grounded] run function playtracker:player/jump/stop
 
 # Reset my jump flag so it can be detected again next tick.
 scoreboard players set @s ptrak_jumpflag 0

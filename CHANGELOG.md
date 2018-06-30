@@ -1,6 +1,7 @@
 # v0.0.8-dev
 - Add tracking for:
   - Jumping and jump time
+  - Grounded vs airborne
 
 # v0.0.7
 - Allow players to be ignored
