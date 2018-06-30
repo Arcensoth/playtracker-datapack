@@ -8,24 +8,24 @@ Namespace       | `playtracker`
 Prefix          | `ptrak`
 
 ## Scoreboard objectives
-Objective           | Criteria                                      | Usage     | Description
-------------------- | --------------------------------------------- | --------- | -----------
-`ptrak_module`      | `dummy`                                       | Read-only | Reserved for SMF.
-`ptrak_snktot`      | `minecraft.custom:minecraft.sneak_time`       | Read-only | The total number of ticks the player has snuck for. A perfect mirror of `minecraft.sneak_time` since instantiation.
-`ptrak_snkflag`     | `minecraft.custom:minecraft.sneak_time`       | Read-only | Shadows `minecraft.sneak_time` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
-`ptrak_snkcur`      | `dummy`                                       | Read-only | The duration in ticks of the player's current (or most recent) sneak. Resets each time the player begins sneaking, and can thus be used to retrieve the duration of the most recent sneak.
-`ptrak_sprtot`      | `minecraft.custom:minecraft.sprint_one_cm`    | Read-only | Similar to `ptrak_snktot` but for sprinting.
-`ptrak_sprflag`     | `minecraft.custom:minecraft.sprint_one_cm`    | Read-only | Similar to `ptrak_snkflag` but for sprinting.
-`ptrak_sprcur`      | `dummy`                                       | Read-only | Similar to `ptrak_snkcur` but for sprinting.
-`ptrak_usebow`      | `minecraft.used:minecraft.bow`                | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
-`ptrak_usecoas`     | `minecraft.used:minecraft.carrot_on_a_stick`  | Read-only | Flag variable for carrot on a stick usage. Prefer to use the `playtracker.used.carrot_on_a_stick` [entity tag](#entity-tags).
-`ptrak_useegg`      | `minecraft.used:minecraft.egg`                | Read-only | Flag variable for egg usage. Prefer to use the `playtracker.used.egg` [entity tag](#entity-tags).
-`ptrak_usepearl`    | `minecraft.used:minecraft.ender_pearl`        | Read-only | Flag variable for ender pearl usage. Prefer to use the `playtracker.used.ender_pearl` [entity tag](#entity-tags).
-`ptrak_usexpbot`    | `minecraft.used:minecraft.experience_bottle`  | Read-only | Flag variable for experience bottle usage. Prefer to use the `playtracker.used.experience_bottle` [entity tag](#entity-tags).
-`ptrak_usefishrod`  | `minecraft.used:minecraft.fishing_rod`        | Read-only | Flag variable for fishing rod usage. Prefer to use the `playtracker.used.fishing_rod` [entity tags](#entity-tags).
-`ptrak_uselinpot`   | `minecraft.used:minecraft.lingering_potion`   | Read-only | Flag variable for lingering potion usage. Prefer to use the `playtracker.used.lingering_potion` [entity tag](#entity-tags).
-`ptrak_usesnoball`  | `minecraft.used:minecraft.snowball`           | Read-only | Flag variable for snowball usage. Prefer to use the `playtracker.used.snowball` [entity tag](#entity-tags).
-`ptrak_usesplpot`   | `minecraft.used:minecraft.splash_potion`      | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
+Objective           | Criteria                  | Usage     | Description
+------------------- | ------------------------- | --------- | -----------
+`ptrak_module`      | `dummy`                   | Read-only | Reserved for SMF.
+`ptrak_snktot`      | `custom:sneak_time`       | Read-only | The total number of ticks the player has snuck for. A perfect mirror of `sneak_time` since instantiation.
+`ptrak_snkflag`     | `custom:sneak_time`       | Read-only | Shadows `sneak_time` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
+`ptrak_snkcur`      | `dummy`                   | Read-only | The duration in ticks of the player's current (or most recent) sneak. Resets each time the player begins sneaking, and can thus be used to retrieve the duration of the most recent sneak.
+`ptrak_sprtot`      | `custom:sprint_one_cm`    | Read-only | Similar to `ptrak_snktot` but for sprinting.
+`ptrak_sprflag`     | `custom:sprint_one_cm`    | Read-only | Similar to `ptrak_snkflag` but for sprinting.
+`ptrak_sprcur`      | `dummy`                   | Read-only | Similar to `ptrak_snkcur` but for sprinting.
+`ptrak_usebow`      | `used:bow`                | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
+`ptrak_usecoas`     | `used:carrot_on_a_stick`  | Read-only | Flag variable for carrot on a stick usage. Prefer to use the `playtracker.used.carrot_on_a_stick` [entity tag](#entity-tags).
+`ptrak_useegg`      | `used:egg`                | Read-only | Flag variable for egg usage. Prefer to use the `playtracker.used.egg` [entity tag](#entity-tags).
+`ptrak_usepearl`    | `used:ender_pearl`        | Read-only | Flag variable for ender pearl usage. Prefer to use the `playtracker.used.ender_pearl` [entity tag](#entity-tags).
+`ptrak_usexpbot`    | `used:experience_bottle`  | Read-only | Flag variable for experience bottle usage. Prefer to use the `playtracker.used.experience_bottle` [entity tag](#entity-tags).
+`ptrak_usefishrod`  | `used:fishing_rod`        | Read-only | Flag variable for fishing rod usage. Prefer to use the `playtracker.used.fishing_rod` [entity tags](#entity-tags).
+`ptrak_uselinpot`   | `used:lingering_potion`   | Read-only | Flag variable for lingering potion usage. Prefer to use the `playtracker.used.lingering_potion` [entity tag](#entity-tags).
+`ptrak_usesnoball`  | `used:snowball`           | Read-only | Flag variable for snowball usage. Prefer to use the `playtracker.used.snowball` [entity tag](#entity-tags).
+`ptrak_usesplpot`   | `used:splash_potion`      | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
 
 ## Entity tags
 Tag                                     | Description
