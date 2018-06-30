@@ -1,0 +1,18 @@
+{
+    "parent": "playtracker:internal/hooks/took_damage",
+    "rewards": {
+        "function": "playtracker:hooks/player/took_damage/explosion"
+    },
+    "criteria": {
+        "take_explosion_damage": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_explosion": true
+                    }
+                }
+            }
+        }
+    }
+}

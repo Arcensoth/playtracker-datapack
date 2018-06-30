@@ -1,0 +1,18 @@
+{
+    "parent": "playtracker:internal/hooks/dealt_damage",
+    "rewards": {
+        "function": "playtracker:hooks/player/dealt_damage/projectile"
+    },
+    "criteria": {
+        "deal_projectile_damage": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    }
+                }
+            }
+        }
+    }
+}

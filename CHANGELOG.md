@@ -1,5 +1,10 @@
 # v0.0.7-dev
 - Allow players to be ignored
+- Fix damage_dealt/melee hook not excluding explosion damage
+- Add hooks for:
+  - Dealing explosion/fire/magic/projectile damage
+  - Taking explosion/fire/magic/melee/projectile damage
+  - Blocking damage
 
 # v0.0.6
 - Fix exponential player tick dispatch
