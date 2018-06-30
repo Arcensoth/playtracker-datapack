@@ -1,3 +1,7 @@
+# v0.0.8-dev
+- Add tracking for:
+  - Jumping and jump time
+
 # v0.0.7
 - Allow players to be ignored
 - Fix damage_dealt/melee hook not excluding explosion damage

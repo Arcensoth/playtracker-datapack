@@ -11,10 +11,13 @@ Prefix          | `ptrak`
 Objective           | Criteria                  | Usage     | Description
 ------------------- | ------------------------- | --------- | -----------
 `ptrak_module`      | `dummy`                   | Read-only | Reserved for SMF.
-`ptrak_sincedeath`  | `custom:time_since_death` | Read-only | The number of ticks since the player's last death. A perfect mirror of `time_since_death` since instantiation.
+`ptrak_sincedeath`  | `custom:time_since_death` | Read-only | The number of ticks since the player's last death. A perfect mirror of `custom:time_since_death` since instantiation.
 `ptrak_deathtime`   | `dummy`                   | Read-only | The duration in ticks of the players current (or most recent) death. Resets each time the player dies, and can thus be used to retrieve the duration of their most recent death.
-`ptrak_snktot`      | `custom:sneak_time`       | Read-only | The total number of ticks the player has snuck for. A perfect mirror of `sneak_time` since instantiation.
-`ptrak_snkflag`     | `custom:sneak_time`       | Read-only | Shadows `sneak_time` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
+`ptrak_jumptot`     | `custom:jump`             | Read-only | The total number of jumps the player has taken. A perfect mirror of `custom:jump` since instantiation.
+`ptrak_jumpflag`    | `custom:jump`             | Read-only | Shadows `custom:jump` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
+`ptrak_jumptime`    | `dummy`                   | Read-only | The duration in ticks of the players current (or most recent) jump. Resets each time the player jumps, and can thus be used to retrieve the duration of their most recent jump.
+`ptrak_snktot`      | `custom:sneak_time`       | Read-only | The total number of ticks the player has snuck for. A perfect mirror of `custom:sneak_time` since instantiation.
+`ptrak_snkflag`     | `custom:sneak_time`       | Read-only | Shadows `custom:sneak_time` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
 `ptrak_snkcur`      | `dummy`                   | Read-only | The duration in ticks of the player's current (or most recent) sneak. Resets each time the player begins sneaking, and can thus be used to retrieve the duration of their most recent sneak.
 `ptrak_sprtot`      | `custom:sprint_one_cm`    | Read-only | Similar to `ptrak_snktot` but for sprinting.
 `ptrak_sprflag`     | `custom:sprint_one_cm`    | Read-only | Similar to `ptrak_snkflag` but for sprinting.
@@ -37,6 +40,9 @@ Tag                                     | Description
 `playtracker.dead`                      | Present on players who are currently dead.
 `playtracker.died`                      | Present on players for a single tick when they die.
 `playtracker.respawned`                 | Present on players for a single tick when they respawn.
+`playtracker.jumping`                   | Present on players for as long as they remain airborne after jumping.
+`playtracker.jumping.started`           | Present on players for a single tick when they jump.
+`playtracker.jumping.stopped`           | Present on players for a single tick when they land from a jump.
 `playtracker.sneaking`                  | Present on players who are currently sneaking.
 `playtracker.sneaking.started`          | Present on players for a single tick when they start sneaking.
 `playtracker.sneaking.stopped`          | Present on players for a single tick when they stop sneaking.

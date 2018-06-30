@@ -4,6 +4,11 @@
 scoreboard objectives remove ptrak_sincedeath
 scoreboard objectives remove ptrak_deathtime
 
+# jumping
+scoreboard objectives remove ptrak_jumptot
+scoreboard objectives remove ptrak_jumpflag
+scoreboard objectives remove ptrak_jumptime
+
 # sneaking
 scoreboard objectives remove ptrak_snktot
 scoreboard objectives remove ptrak_snkflag

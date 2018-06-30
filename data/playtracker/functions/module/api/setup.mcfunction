@@ -4,6 +4,11 @@
 scoreboard objectives add ptrak_sincedeath minecraft.custom:minecraft.time_since_death
 scoreboard objectives add ptrak_deathtime dummy
 
+# jumping
+scoreboard objectives add ptrak_jumptot minecraft.custom:minecraft.jump
+scoreboard objectives add ptrak_jumpflag minecraft.custom:minecraft.jump
+scoreboard objectives add ptrak_jumptime dummy
+
 # sneaking
 scoreboard objectives add ptrak_snktot minecraft.custom:minecraft.sneak_time
 scoreboard objectives add ptrak_snkflag minecraft.custom:minecraft.sneak_time
