@@ -10,6 +10,8 @@
   - Changing inventory
   - Placing a block
   - Killing an entity
+  - Dying and respawning
+- Add tracking for death time (similar to sneaking/sprinting)
 
 # v0.0.6
 - Fix exponential player tick dispatch

@@ -1,5 +1,9 @@
 # playtracker:module/api/teardown
 
+# death
+scoreboard objectives remove ptrak_sincedeath
+scoreboard objectives remove ptrak_deathtime
+
 # sneaking
 scoreboard objectives remove ptrak_snktot
 scoreboard objectives remove ptrak_snkflag
