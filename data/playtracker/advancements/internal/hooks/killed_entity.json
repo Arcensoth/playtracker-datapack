@@ -1,0 +1,11 @@
+{
+    "parent": "playtracker:internal/hooks",
+    "rewards": {
+        "function": "playtracker:hooks/player/killed_entity"
+    },
+    "criteria": {
+        "kill_entity": {
+            "trigger": "minecraft:player_killed_entity"
+        }
+    }
+}

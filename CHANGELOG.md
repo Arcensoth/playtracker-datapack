@@ -9,6 +9,7 @@
   - Changing effects
   - Changing inventory
   - Placing a block
+  - Killing an entity
 
 # v0.0.6
 - Fix exponential player tick dispatch
