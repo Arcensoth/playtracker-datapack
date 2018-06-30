@@ -1,0 +1,11 @@
+{
+    "parent": "playtracker:internal/hooks",
+    "rewards": {
+        "function": "playtracker:hooks/player/changed_effects"
+    },
+    "criteria": {
+        "change_effects": {
+            "trigger": "minecraft:effects_changed"
+        }
+    }
+}

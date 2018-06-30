@@ -6,6 +6,7 @@
   - Taking explosion/fire/magic/melee/projectile damage
   - Blocking damage
   - Consuming an item
+  - Changing effects
 
 # v0.0.6
 - Fix exponential player tick dispatch
