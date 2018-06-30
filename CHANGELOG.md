@@ -8,6 +8,7 @@
   - Consuming an item
   - Changing effects
   - Changing inventory
+  - Placing a block
 
 # v0.0.6
 - Fix exponential player tick dispatch
