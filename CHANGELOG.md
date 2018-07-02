@@ -1,4 +1,4 @@
-# v0.0.8-dev
+# v0.0.8
 - Rename `killed_entity` to just `killed`
 - Rename/refactor a bunch of internal components
 - Add tracking for:
