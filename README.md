@@ -69,12 +69,36 @@ Tag                                     | Description
 ## Event hooks
 Function tag                                        | Description
 --------------------------------------------------- | -----------
+`#playtracker:hooks/player/blocked_damage`          | Run by a player when they block damage.
+`#playtracker:hooks/player/changed_effects`         | Run by a player when their effects change.
+`#playtracker:hooks/player/changed_inventory`       | Run by a player when their inventory changes.
+`#playtracker:hooks/player/consumed_item`           | Run by a player when they consume an item.
 `#playtracker:hooks/player/dealt_damage`            | Run by a player when they deal damage.
+`#playtracker:hooks/player/dealt_damage/explosion`  | Run by a player when they deal explosion damage.
+`#playtracker:hooks/player/dealt_damage/fire`       | Run by a player when they deal fire damage.
+`#playtracker:hooks/player/dealt_damage/magic`      | Run by a player when they deal magic damage.
 `#playtracker:hooks/player/dealt_damage/melee`      | Run by a player when they deal melee damage.
+`#playtracker:hooks/player/dealt_damage/projectile` | Run by a player when they deal projectile damage.
+`#playtracker:hooks/player/died`                    | Run by a player when they die.
+`#playtracker:hooks/player/grounded/started`        | Run by a player when they leave the ground.
+`#playtracker:hooks/player/grounded/stopped`        | Run by a player when they hit the ground.
+`#playtracker:hooks/player/jumping/started`         | Run by a player when they jump.
+`#playtracker:hooks/player/jumping/stopped`         | Run by a player when they land from a jump.
+`#playtracker:hooks/player/killed`                  | Run by a player when they kill something.
+`#playtracker:hooks/player/killed/player`           | Run by a player when they kill another player.
+`#playtracker:hooks/player/placed_block`            | Run by a player when they place a block.
+`#playtracker:hooks/player/respawned`               | Run by a player when they respawn.
 `#playtracker:hooks/player/sneaking/started`        | Run by a player when they start sneaking.
 `#playtracker:hooks/player/sneaking/stopped`        | Run by a player when they stop sneaking.
 `#playtracker:hooks/player/sprinting/started`       | Run by a player when they start sprinting.
 `#playtracker:hooks/player/sprinting/stopped`       | Run by a player when they stop sprinting.
+`#playtracker:hooks/player/talked_to_villager`      | Run by a player when they talk to a villager.
+`#playtracker:hooks/player/took_damage`             | Run by a player when they take damage.
+`#playtracker:hooks/player/took_damage/explosion`   | Run by a player when they take explosion damage.
+`#playtracker:hooks/player/took_damage/fire`        | Run by a player when they take fire damage.
+`#playtracker:hooks/player/took_damage/magic`       | Run by a player when they take magic damage.
+`#playtracker:hooks/player/took_damage/melee`       | Run by a player when they take melee damage.
+`#playtracker:hooks/player/took_damage/projectile`  | Run by a player when they take projectile damage.
 `#playtracker:hooks/player/used/bow`                | Run by a player when they use a bow.
 `#playtracker:hooks/player/used/bow/mainhand`       | Run by a player when they use a bow from their mainhand.
 `#playtracker:hooks/player/used/bow/offhand`        | Run by a player when they use a bow from their offhand.
