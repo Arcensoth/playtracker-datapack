@@ -1,4 +1,4 @@
-# playtracker:player/sneak/start
+# playtracker:player/sneaking/start
 
 # reset sneak counter
 scoreboard players set @s ptrak_snkcur 0

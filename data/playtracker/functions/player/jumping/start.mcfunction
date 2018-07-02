@@ -1,4 +1,4 @@
-# playtracker:player/jump/start
+# playtracker:player/jumping/start
 
 # reset jump timer
 scoreboard players set @s ptrak_jumptime 0

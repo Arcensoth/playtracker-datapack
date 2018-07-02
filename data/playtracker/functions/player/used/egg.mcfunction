@@ -1,4 +1,4 @@
-# playtracker:player/use/egg
+# playtracker:player/used/egg
 
 tag @s[tag=playtracker.used.egg] remove playtracker.used.egg
 tag @s[scores={ptrak_useegg=1..}] add playtracker.used.egg

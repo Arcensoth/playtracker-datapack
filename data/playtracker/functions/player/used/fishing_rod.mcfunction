@@ -1,4 +1,4 @@
-# playtracker:player/use/fishing_rod
+# playtracker:player/used/fishing_rod
 
 tag @s[tag=playtracker.used.fishing_rod] remove playtracker.used.fishing_rod
 tag @s[scores={ptrak_usefishrod=1..}] add playtracker.used.fishing_rod

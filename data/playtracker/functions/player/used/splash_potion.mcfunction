@@ -1,4 +1,4 @@
-# playtracker:player/use/splash_potion
+# playtracker:player/used/splash_potion
 
 tag @s[tag=playtracker.used.splash_potion] remove playtracker.used.splash_potion
 tag @s[scores={ptrak_usesplpot=1..}] add playtracker.used.splash_potion

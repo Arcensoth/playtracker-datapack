@@ -1,4 +1,4 @@
-# playtracker:player/death/died
+# playtracker:player/dead/died
 
 # reset death timer
 scoreboard players set @s ptrak_deathtime 0

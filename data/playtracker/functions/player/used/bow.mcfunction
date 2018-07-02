@@ -1,4 +1,4 @@
-# playtracker:player/use/bow
+# playtracker:player/used/bow
 
 tag @s[tag=playtracker.used.bow] remove playtracker.used.bow
 tag @s[tag=playtracker.used.bow.mainhand] remove playtracker.used.bow.mainhand

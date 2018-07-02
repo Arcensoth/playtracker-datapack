@@ -1,4 +1,4 @@
-# playtracker:player/death/respawned
+# playtracker:player/dead/respawned
 
 # add respawned tag
 tag @s add playtracker.respawned

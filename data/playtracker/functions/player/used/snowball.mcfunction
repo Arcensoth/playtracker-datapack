@@ -1,4 +1,4 @@
-# playtracker:player/use/snowball
+# playtracker:player/used/snowball
 
 tag @s[tag=playtracker.used.snowball] remove playtracker.used.snowball
 tag @s[scores={ptrak_usesnoball=1..}] add playtracker.used.snowball

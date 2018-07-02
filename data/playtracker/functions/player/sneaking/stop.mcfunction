@@ -1,4 +1,4 @@
-# playtracker:player/sneak/stop
+# playtracker:player/sneaking/stop
 
 # add sneak-stop tag
 tag @s add playtracker.sneaking.stopped

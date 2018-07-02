@@ -1,4 +1,4 @@
-# playtracker:player/sprint/start
+# playtracker:player/sprinting/start
 
 scoreboard players set @s ptrak_sprcur 0
 tag @s add playtracker.sprinting.started

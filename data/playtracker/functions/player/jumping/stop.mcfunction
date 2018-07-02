@@ -1,4 +1,4 @@
-# playtracker:player/jump/stop
+# playtracker:player/jumping/stop
 
 # add jumping-stopped tag
 tag @s add playtracker.jumping.stopped

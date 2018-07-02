@@ -1,4 +1,4 @@
-# playtracker:player/use/carrot_on_a_stick
+# playtracker:player/used/carrot_on_a_stick
 
 tag @s[tag=playtracker.used.carrot_on_a_stick] remove playtracker.used.carrot_on_a_stick
 tag @s[scores={ptrak_usecoas=1..}] add playtracker.used.carrot_on_a_stick

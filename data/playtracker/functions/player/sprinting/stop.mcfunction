@@ -1,4 +1,4 @@
-# playtracker:player/sprint/stop
+# playtracker:player/sprinting/stop
 
 tag @s add playtracker.sprinting.stopped
 tag @s remove playtracker.sprinting

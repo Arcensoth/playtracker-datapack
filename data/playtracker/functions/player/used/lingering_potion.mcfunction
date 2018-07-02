@@ -1,4 +1,4 @@
-# playtracker:player/use/lingering_potion
+# playtracker:player/used/lingering_potion
 
 tag @s[tag=playtracker.used.lingering_potion] remove playtracker.used.lingering_potion
 tag @s[scores={ptrak_uselinpot=1..}] add playtracker.used.lingering_potion

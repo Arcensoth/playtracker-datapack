@@ -1,4 +1,4 @@
-# playtracker:player/use/ender_pearl
+# playtracker:player/used/ender_pearl
 
 tag @s[tag=playtracker.used.ender_pearl] remove playtracker.used.ender_pearl
 tag @s[scores={ptrak_usepearl=1..}] add playtracker.used.ender_pearl

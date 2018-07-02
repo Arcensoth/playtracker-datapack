@@ -1,4 +1,4 @@
-# playtracker:player/use/experience_bottle
+# playtracker:player/used/experience_bottle
 
 tag @s[tag=playtracker.used.experience_bottle] remove playtracker.used.experience_bottle
 tag @s[scores={ptrak_usexpbot=1..}] add playtracker.used.experience_bottle
