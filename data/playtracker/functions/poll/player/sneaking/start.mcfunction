@@ -1,13 +1,11 @@
 # playtracker:poll/player/sneaking/start
 
-# reset sneak counter
+# Start a new sneak counter.
 scoreboard players set @s ptrak_snkcur 0
 
-# add sneak-start tag
+# Manage sneaking tags.
 tag @s add playtracker.sneaking.started
-
-# add sneaking tag
 tag @s add playtracker.sneaking
 
-# emit sneaking-started event
+# Emit the sneaking event.
 function #playtracker:hooks/player/sneaking/started

@@ -1,7 +1,5 @@
 # playtracker:poll/player/sprinting/tick
 
-# see sneak submodule for explanations
-
 tag @s[tag=playtracker.sprinting.started] remove playtracker.sprinting.started
 execute as @s[tag=!playtracker.sprinting,scores={ptrak_sprflag=1..}] run function playtracker:poll/player/sprinting/start
 tag @s[tag=playtracker.sprinting.stopped] remove playtracker.sprinting.stopped
