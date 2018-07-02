@@ -1,8 +1,9 @@
 # v0.0.8-dev
+- Rename `killed_entity` to just `killed`
 - Add tracking for:
   - Jumping and jump time
   - Grounded vs airborne
-- Rename `killed_entity` to just `killed`
+  - Player kills
 
 # v0.0.7
 - Allow players to be ignored
