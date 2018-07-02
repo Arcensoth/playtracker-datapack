@@ -19,6 +19,9 @@ scoreboard objectives remove ptrak_sprtot
 scoreboard objectives remove ptrak_sprflag
 scoreboard objectives remove ptrak_sprcur
 
+# talking to villagers
+scoreboard objectives remove ptrak_talkvlgr
+
 # common item usage
 scoreboard objectives remove ptrak_usebow
 scoreboard objectives remove ptrak_usefishrod

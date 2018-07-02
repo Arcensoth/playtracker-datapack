@@ -4,6 +4,7 @@
   - Jumping and jump time
   - Grounded vs airborne
   - Player kills
+  - Talking to villagers
 
 # v0.0.7
 - Allow players to be ignored

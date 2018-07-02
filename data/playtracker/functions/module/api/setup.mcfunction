@@ -19,6 +19,9 @@ scoreboard objectives add ptrak_sprtot minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add ptrak_sprflag minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add ptrak_sprcur dummy
 
+# talking to villagers
+scoreboard objectives add ptrak_talkvlgr minecraft.custom:minecraft.talked_to_villager
+
 # common item usage
 scoreboard objectives add ptrak_usebow minecraft.used:minecraft.bow
 scoreboard objectives add ptrak_usefishrod minecraft.used:minecraft.fishing_rod
