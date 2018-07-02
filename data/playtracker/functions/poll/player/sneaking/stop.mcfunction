@@ -1,10 +1,8 @@
 # playtracker:poll/player/sneaking/stop
 
-# add sneak-stop tag
+# Manage sneaking tags.
 tag @s add playtracker.sneaking.stopped
-
-# remove sneaking tag
 tag @s remove playtracker.sneaking
 
-# emit sneak-stop event
+# Emit the sneaking-stopped event.
 function #playtracker:hooks/player/sneaking/stopped

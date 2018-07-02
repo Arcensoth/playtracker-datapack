@@ -7,5 +7,5 @@ scoreboard players set @s ptrak_snkcur 0
 tag @s add playtracker.sneaking.started
 tag @s add playtracker.sneaking
 
-# Emit the sneaking event.
+# Emit the sneaking-started event.
 function #playtracker:hooks/player/sneaking/started
