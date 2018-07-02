@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks",
     "rewards": {
-        "function": "playtracker:hooks/player/blocked_damage"
+        "function": "playtracker:advancement_handles/blocked_damage"
     },
     "criteria": {
         "block_damage": {

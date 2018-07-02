@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks",
     "rewards": {
-        "function": "playtracker:hooks/player/took_damage"
+        "function": "playtracker:advancement_handles/took_damage"
     },
     "criteria": {
         "take_damage": {

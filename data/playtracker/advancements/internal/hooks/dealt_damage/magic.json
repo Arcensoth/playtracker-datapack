@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks/dealt_damage",
     "rewards": {
-        "function": "playtracker:hooks/player/dealt_damage/magic"
+        "function": "playtracker:advancement_handles/dealt_damage/magic"
     },
     "criteria": {
         "deal_magic_damage": {

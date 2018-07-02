@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks",
     "rewards": {
-        "function": "playtracker:hooks/player/changed_inventory"
+        "function": "playtracker:advancement_handles/changed_inventory"
     },
     "criteria": {
         "change_inventory": {

@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks",
     "rewards": {
-        "function": "playtracker:hooks/player/placed_block"
+        "function": "playtracker:advancement_handles/placed_block"
     },
     "criteria": {
         "place_block": {

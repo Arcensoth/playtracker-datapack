@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks",
     "rewards": {
-        "function": "playtracker:hooks/player/consumed_item"
+        "function": "playtracker:advancement_handles/consumed_item"
     },
     "criteria": {
         "consume_item": {

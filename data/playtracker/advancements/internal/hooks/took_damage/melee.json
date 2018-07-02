@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks/took_damage",
     "rewards": {
-        "function": "playtracker:hooks/player/took_damage/melee"
+        "function": "playtracker:advancement_handles/took_damage/melee"
     },
     "criteria": {
         "take_melee_damage": {

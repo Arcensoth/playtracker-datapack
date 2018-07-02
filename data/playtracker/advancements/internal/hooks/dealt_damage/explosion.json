@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks/dealt_damage",
     "rewards": {
-        "function": "playtracker:hooks/player/dealt_damage/explosion"
+        "function": "playtracker:advancement_handles/dealt_damage/explosion"
     },
     "criteria": {
         "deal_explosion_damage": {

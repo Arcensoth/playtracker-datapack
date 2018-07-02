@@ -1,7 +1,7 @@
 {
     "parent": "playtracker:internal/hooks",
     "rewards": {
-        "function": "playtracker:hooks/player/killed"
+        "function": "playtracker:advancement_handles/killed"
     },
     "criteria": {
         "kill_entity": {
