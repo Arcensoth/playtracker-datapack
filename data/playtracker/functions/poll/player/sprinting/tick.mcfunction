@@ -1,8 +1,6 @@
 # playtracker:poll/player/sprinting/tick
 
-tag @s[tag=playtracker.sprinting.started] remove playtracker.sprinting.started
-execute as @s[tag=!playtracker.sprinting,scores={ptrak_sprflag=1..}] run function playtracker:poll/player/sprinting/start
-tag @s[tag=playtracker.sprinting.stopped] remove playtracker.sprinting.stopped
-execute as @s[tag=playtracker.sprinting,scores={ptrak_sprflag=0}] run function playtracker:poll/player/sprinting/stop
-scoreboard players set @s ptrak_sprflag 0
-scoreboard players add @s[tag=playtracker.sprinting] ptrak_sprcur 1
+tag @s[scores={ptrak_sprflag=1..}] add playtracker.temp.poll.player.sprinting.update
+tag @s[tag=playtracker.sprinting] add playtracker.temp.poll.player.sprinting.update
+
+execute if entity @s[tag=playtracker.temp.poll.player.sprinting.update] run function playtracker:poll/player/sprinting/update

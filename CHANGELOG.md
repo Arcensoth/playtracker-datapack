@@ -1,3 +1,6 @@
+# v0.0.9-dev
+- Optimize polling functions
+
 # v0.0.8
 - Rename `killed_entity` to just `killed`
 - Rename/refactor a bunch of internal components
