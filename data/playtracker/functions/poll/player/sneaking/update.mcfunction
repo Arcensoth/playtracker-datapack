@@ -9,13 +9,13 @@ tag @s remove playtracker.temp.poll.player.sneaking.update
 tag @s[tag=playtracker.sneaking.started] remove playtracker.sneaking.started
 
 # If I'm sneaking but don't yet have the sneak tag (`playtracker.sneaking`), I must have just started sneaking.
-execute as @s[tag=!playtracker.sneaking,scores={ptrak_snkflag=1..}] run function playtracker:poll/player/sneaking/start
+execute if entity @s[tag=!playtracker.sneaking,scores={ptrak_snkflag=1..}] run function playtracker:poll/player/sneaking/start
 
 # Same logic as for the sneaking-started tag but for sneaking-stopped.
 tag @s[tag=playtracker.sneaking.stopped] remove playtracker.sneaking.stopped
 
 # If I'm not sneaking but still have the sneak tag, I must have just stopped sneaking.
-execute as @s[tag=playtracker.sneaking,scores={ptrak_snkflag=0}] run function playtracker:poll/player/sneaking/stop
+execute if entity @s[tag=playtracker.sneaking,scores={ptrak_snkflag=0}] run function playtracker:poll/player/sneaking/stop
 
 # From here on out, we should use the sneak tag to detect sneaking (instead of the sneak flag).
 
