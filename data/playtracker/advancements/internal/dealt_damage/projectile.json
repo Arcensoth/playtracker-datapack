@@ -1,15 +1,15 @@
 {
-    "parent": "playtracker:internal/hooks/dealt_damage",
+    "parent": "playtracker:internal/dealt_damage",
     "rewards": {
-        "function": "playtracker:advancement_handles/dealt_damage/magic"
+        "function": "playtracker:advancement_handles/dealt_damage/projectile"
     },
     "criteria": {
-        "deal_magic_damage": {
+        "deal_projectile_damage": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
                     "type": {
-                        "is_magic": true
+                        "is_projectile": true
                     }
                 }
             }

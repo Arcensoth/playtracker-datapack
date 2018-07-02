@@ -1,5 +1,5 @@
 {
-    "parent": "playtracker:internal/hooks/took_damage",
+    "parent": "playtracker:internal/took_damage",
     "rewards": {
         "function": "playtracker:advancement_handles/took_damage/magic"
     },

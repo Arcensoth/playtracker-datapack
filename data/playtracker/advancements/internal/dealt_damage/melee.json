@@ -1,11 +1,11 @@
 {
-    "parent": "playtracker:internal/hooks/took_damage",
+    "parent": "playtracker:internal/dealt_damage",
     "rewards": {
-        "function": "playtracker:advancement_handles/took_damage/melee"
+        "function": "playtracker:advancement_handles/dealt_damage/melee"
     },
     "criteria": {
-        "take_melee_damage": {
-            "trigger": "minecraft:entity_hurt_player",
+        "deal_melee_damage": {
+            "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
                     "type": {

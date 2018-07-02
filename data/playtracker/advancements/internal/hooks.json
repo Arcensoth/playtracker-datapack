@@ -1,8 +1,0 @@
-{
-    "parent": "playtracker:internal",
-    "criteria": {
-        "impossible": {
-            "trigger": "minecraft:impossible"
-        }
-    }
-}

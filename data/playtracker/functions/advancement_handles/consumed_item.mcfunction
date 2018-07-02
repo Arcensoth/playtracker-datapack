@@ -1,5 +1,5 @@
-# playtracker:hooks/player/consumed_item
+# playtracker:advancement_handles/consumed_item
 
-advancement revoke @s only playtracker:internal/hooks/consumed_item
+advancement revoke @s only playtracker:internal/consumed_item
 
 function #playtracker:hooks/player/consumed_item

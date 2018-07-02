@@ -1,5 +1,5 @@
 {
-    "parent": "playtracker:internal/hooks/killed",
+    "parent": "playtracker:internal/killed",
     "rewards": {
         "function": "playtracker:advancement_handles/killed/player"
     },

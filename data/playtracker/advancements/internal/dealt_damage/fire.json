@@ -1,15 +1,15 @@
 {
-    "parent": "playtracker:internal/hooks/dealt_damage",
+    "parent": "playtracker:internal/dealt_damage",
     "rewards": {
-        "function": "playtracker:advancement_handles/dealt_damage/explosion"
+        "function": "playtracker:advancement_handles/dealt_damage/fire"
     },
     "criteria": {
-        "deal_explosion_damage": {
+        "deal_fire_damage": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "damage": {
                     "type": {
-                        "is_explosion": true
+                        "is_fire": true
                     }
                 }
             }
