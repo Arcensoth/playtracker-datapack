@@ -39,8 +39,8 @@ Tag                                     | Description
 `playtracker.debug`                     | Present on players who are debugging the module.
 `playtracker.ignore`                    | Present on players who are not being tracked.
 `playtracker.dead`                      | Present on players who are currently dead.
-`playtracker.died`                      | Present on players for a single tick when they die.
-`playtracker.respawned`                 | Present on players for a single tick when they respawn.
+`playtracker.dead.started`              | Present on players for a single tick when they die.
+`playtracker.dead.stopped`              | Present on players for a single tick when they respawn.
 `playtracker.grounded`                  | Present on players who are currently on the ground.
 `playtracker.grounded.started`          | Present on players for a single tick when they hit the ground.
 `playtracker.grounded.stopped`          | Present on players for a single tick when they leave the ground.
@@ -73,13 +73,14 @@ Function tag                                        | Description
 `#playtracker:hooks/player/changed_effects`         | Run by a player when their effects change.
 `#playtracker:hooks/player/changed_inventory`       | Run by a player when their inventory changes.
 `#playtracker:hooks/player/consumed_item`           | Run by a player when they consume an item.
+`#playtracker:hooks/player/dead/started`            | Run by a player when they die.
+`#playtracker:hooks/player/dead/stopped`            | Run by a player when they repsawn.
 `#playtracker:hooks/player/dealt_damage`            | Run by a player when they deal damage.
 `#playtracker:hooks/player/dealt_damage/explosion`  | Run by a player when they deal explosion damage.
 `#playtracker:hooks/player/dealt_damage/fire`       | Run by a player when they deal fire damage.
 `#playtracker:hooks/player/dealt_damage/magic`      | Run by a player when they deal magic damage.
 `#playtracker:hooks/player/dealt_damage/melee`      | Run by a player when they deal melee damage.
 `#playtracker:hooks/player/dealt_damage/projectile` | Run by a player when they deal projectile damage.
-`#playtracker:hooks/player/died`                    | Run by a player when they die.
 `#playtracker:hooks/player/grounded/started`        | Run by a player when they leave the ground.
 `#playtracker:hooks/player/grounded/stopped`        | Run by a player when they hit the ground.
 `#playtracker:hooks/player/jumping/started`         | Run by a player when they jump.
@@ -87,7 +88,6 @@ Function tag                                        | Description
 `#playtracker:hooks/player/killed`                  | Run by a player when they kill something.
 `#playtracker:hooks/player/killed/player`           | Run by a player when they kill another player.
 `#playtracker:hooks/player/placed_block`            | Run by a player when they place a block.
-`#playtracker:hooks/player/respawned`               | Run by a player when they respawn.
 `#playtracker:hooks/player/sneaking/started`        | Run by a player when they start sneaking.
 `#playtracker:hooks/player/sneaking/stopped`        | Run by a player when they stop sneaking.
 `#playtracker:hooks/player/sprinting/started`       | Run by a player when they start sprinting.
