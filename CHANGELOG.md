@@ -1,5 +1,6 @@
 # v0.0.9-dev
 - Optimize polling functions
+- Make common actions more obvious while debugging
 
 # v0.0.8
 - Rename `killed_entity` to just `killed`
