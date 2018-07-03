@@ -10,28 +10,28 @@ Prefix          | `ptrak`
 ## Scoreboard objectives
 Objective           | Criteria                    | Usage     | Description
 ------------------- | --------------------------- | --------- | -----------
-`ptrak_module`      | `dummy`                     | Read-only | Reserved for SMF.
-`ptrak_sincedeath`  | `custom:time_since_death`   | Read-only | The number of ticks since the player's last death. A perfect mirror of `custom:time_since_death` since instantiation.
-`ptrak_deathtime`   | `dummy`                     | Read-only | The duration in ticks of the players current (or most recent) death. Resets each time the player dies, and can thus be used to retrieve the duration of their most recent death.
-`ptrak_jumptot`     | `custom:jump`               | Read-only | The total number of jumps the player has taken. A perfect mirror of `custom:jump` since instantiation.
-`ptrak_jumpflag`    | `custom:jump`               | Read-only | Shadows `custom:jump` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
-`ptrak_jumptime`    | `dummy`                     | Read-only | The duration in ticks of the players current (or most recent) jump. Resets each time the player jumps, and can thus be used to retrieve the duration of their most recent jump.
-`ptrak_snktot`      | `custom:sneak_time`         | Read-only | The total number of ticks the player has snuck for. A perfect mirror of `custom:sneak_time` since instantiation.
-`ptrak_snkflag`     | `custom:sneak_time`         | Read-only | Shadows `custom:sneak_time` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak_snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
-`ptrak_snkcur`      | `dummy`                     | Read-only | The duration in ticks of the player's current (or most recent) sneak. Resets each time the player begins sneaking, and can thus be used to retrieve the duration of their most recent sneak.
-`ptrak_sprtot`      | `custom:sprint_one_cm`      | Read-only | Similar to `ptrak_snktot` but for sprinting.
-`ptrak_sprflag`     | `custom:sprint_one_cm`      | Read-only | Similar to `ptrak_snkflag` but for sprinting.
-`ptrak_sprcur`      | `dummy`                     | Read-only | Similar to `ptrak_snkcur` but for sprinting.
-`ptrak_talkvlgr`    | `custom:talked_to_villager` | Read-only | Flag variable for talking to villagers. Prefer to use the `playtracker.talked_to_villager` [entity tag](#entity-tags).
-`ptrak_usebow`      | `used:bow`                  | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
-`ptrak_usecoas`     | `used:carrot_on_a_stick`    | Read-only | Flag variable for carrot on a stick usage. Prefer to use the `playtracker.used.carrot_on_a_stick` [entity tag](#entity-tags).
-`ptrak_useegg`      | `used:egg`                  | Read-only | Flag variable for egg usage. Prefer to use the `playtracker.used.egg` [entity tag](#entity-tags).
-`ptrak_usepearl`    | `used:ender_pearl`          | Read-only | Flag variable for ender pearl usage. Prefer to use the `playtracker.used.ender_pearl` [entity tag](#entity-tags).
-`ptrak_usexpbot`    | `used:experience_bottle`    | Read-only | Flag variable for experience bottle usage. Prefer to use the `playtracker.used.experience_bottle` [entity tag](#entity-tags).
-`ptrak_usefishrod`  | `used:fishing_rod`          | Read-only | Flag variable for fishing rod usage. Prefer to use the `playtracker.used.fishing_rod` [entity tags](#entity-tags).
-`ptrak_uselinpot`   | `used:lingering_potion`     | Read-only | Flag variable for lingering potion usage. Prefer to use the `playtracker.used.lingering_potion` [entity tag](#entity-tags).
-`ptrak_usesnoball`  | `used:snowball`             | Read-only | Flag variable for snowball usage. Prefer to use the `playtracker.used.snowball` [entity tag](#entity-tags).
-`ptrak_usesplpot`   | `used:splash_potion`        | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
+`ptrak.module`      | `dummy`                     | Read-only | Reserved for SMF.
+`ptrak.sincedeath`  | `custom:time_since_death`   | Read-only | The number of ticks since the player's last death. A perfect mirror of `custom:time_since_death` since instantiation.
+`ptrak.deathtime`   | `dummy`                     | Read-only | The duration in ticks of the players current (or most recent) death. Resets each time the player dies, and can thus be used to retrieve the duration of their most recent death.
+`ptrak.jumptot`     | `custom:jump`               | Read-only | The total number of jumps the player has taken. A perfect mirror of `custom:jump` since instantiation.
+`ptrak.jumpflag`    | `custom:jump`               | Read-only | Shadows `custom:jump` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak.snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
+`ptrak.jumptime`    | `dummy`                     | Read-only | The duration in ticks of the players current (or most recent) jump. Resets each time the player jumps, and can thus be used to retrieve the duration of their most recent jump.
+`ptrak.snktot`      | `custom:sneak_time`         | Read-only | The total number of ticks the player has snuck for. A perfect mirror of `custom:sneak_time` since instantiation.
+`ptrak.snkflag`     | `custom:sneak_time`         | Read-only | Shadows `custom:sneak_time` to produce a transient flag for detecting sneak state each tick. **For internal use only.** Use `ptrak.snkcount` and/or [tags](#entity_tags) appropriately in dependent modules.
+`ptrak.snkcur`      | `dummy`                     | Read-only | The duration in ticks of the player's current (or most recent) sneak. Resets each time the player begins sneaking, and can thus be used to retrieve the duration of their most recent sneak.
+`ptrak.sprtot`      | `custom:sprint_one_cm`      | Read-only | Similar to `ptrak.snktot` but for sprinting.
+`ptrak.sprflag`     | `custom:sprint_one_cm`      | Read-only | Similar to `ptrak.snkflag` but for sprinting.
+`ptrak.sprcur`      | `dummy`                     | Read-only | Similar to `ptrak.snkcur` but for sprinting.
+`ptrak.talkvlgr`    | `custom:talked_to_villager` | Read-only | Flag variable for talking to villagers. Prefer to use the `playtracker.talked_to_villager` [entity tag](#entity-tags).
+`ptrak.usebow`      | `used:bow`                  | Read-only | Flag variable for bow usage. Prefer to use the `playtracker.used.bow` [entity tags](#entity-tags).
+`ptrak.usecoas`     | `used:carrot_on_a_stick`    | Read-only | Flag variable for carrot on a stick usage. Prefer to use the `playtracker.used.carrot_on_a_stick` [entity tag](#entity-tags).
+`ptrak.useegg`      | `used:egg`                  | Read-only | Flag variable for egg usage. Prefer to use the `playtracker.used.egg` [entity tag](#entity-tags).
+`ptrak.usepearl`    | `used:ender_pearl`          | Read-only | Flag variable for ender pearl usage. Prefer to use the `playtracker.used.ender_pearl` [entity tag](#entity-tags).
+`ptrak.usexpbot`    | `used:experience_bottle`    | Read-only | Flag variable for experience bottle usage. Prefer to use the `playtracker.used.experience_bottle` [entity tag](#entity-tags).
+`ptrak.usefishrod`  | `used:fishing_rod`          | Read-only | Flag variable for fishing rod usage. Prefer to use the `playtracker.used.fishing_rod` [entity tags](#entity-tags).
+`ptrak.uselinpot`   | `used:lingering_potion`     | Read-only | Flag variable for lingering potion usage. Prefer to use the `playtracker.used.lingering_potion` [entity tag](#entity-tags).
+`ptrak.usesnoball`  | `used:snowball`             | Read-only | Flag variable for snowball usage. Prefer to use the `playtracker.used.snowball` [entity tag](#entity-tags).
+`ptrak.usesplpot`   | `used:splash_potion`        | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
 
 ## Entity tags
 Tag                                     | Description

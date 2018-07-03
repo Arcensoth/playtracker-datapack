@@ -1,6 +1,6 @@
 # playtracker:module/forceuninstall
 
-scoreboard objectives remove ptrak_module
+scoreboard objectives remove ptrak.module
 
 function playtracker:module/api/teardown
 
