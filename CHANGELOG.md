@@ -1,6 +1,10 @@
 # v0.0.9-dev
 - Use SMF v0.7.0
   - Rename objectives to use `.` instead of `_` for namespace separator
+- Add hooks for:
+  - Changing dimensions
+- Add tags for:
+  - Current dimension
 - Optimize polling functions
 - Make common actions more obvious while debugging
 - Rename death events to be consistent with other naming conventions

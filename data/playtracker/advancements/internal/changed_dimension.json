@@ -1,0 +1,11 @@
+{
+    "parent": "playtracker:internal",
+    "rewards": {
+        "function": "playtracker:advancement_handles/changed_dimension"
+    },
+    "criteria": {
+        "change_dimension": {
+            "trigger": "minecraft:changed_dimension"
+        }
+    }
+}

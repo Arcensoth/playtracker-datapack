@@ -1,0 +1,14 @@
+{
+    "parent": "playtracker:internal/changed_dimension",
+    "rewards": {
+        "function": "playtracker:advancement_handles/changed_dimension/from/overworld"
+    },
+    "criteria": {
+        "change_dimension": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld"
+            }
+        }
+    }
+}
