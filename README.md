@@ -5,7 +5,7 @@ Field           | Value
 --------------- | -----
 Category        | Utility
 Namespace       | `playtracker`
-Prefix          | `ptrak`
+Scorespace      | `ptrak`
 
 ## Scoreboard objectives
 Objective           | Criteria                    | Usage     | Description
