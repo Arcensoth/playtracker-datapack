@@ -131,10 +131,10 @@ Function tag                                                  | Description
 ### Performance Analysis
 Count | Command
 ----- | -------
-18    | `function`
-14    | `tag @s[tag]`
-10    | `execute if entity @s[scores]`
-7     | `execute if entity @s[tag]`
-5     | `tag @s[scores]`
+18p   | `function`
+14p   | `tag @s[tag]`
+10p   | `execute if entity @s[scores]`
+7p    | `execute if entity @s[tag]`
+5p    | `tag @s[scores]`
 1     | `execute if entity @a[tag]`
 1     | `execute as @a[tag] at @s run function`
