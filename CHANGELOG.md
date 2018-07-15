@@ -3,8 +3,10 @@
   - Rename objectives to use `.` instead of `_` for namespace separator
 - Add hooks for:
   - Changing dimensions
+  - Sleeping started/stopped
 - Add tags for:
   - Current dimension
+  - Sleeping, sleeping started/stopped
 - Optimize polling functions
 - Make common actions more obvious while debugging
 - Rename death events to be consistent with other naming conventions

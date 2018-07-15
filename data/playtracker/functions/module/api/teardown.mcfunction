@@ -4,6 +4,10 @@
 scoreboard objectives remove ptrak.sincedeath
 scoreboard objectives remove ptrak.deathtime
 
+# rest
+scoreboard objectives remove ptrak.sincerest
+scoreboard objectives remove ptrak.resttime
+
 # jumping
 scoreboard objectives remove ptrak.jumptot
 scoreboard objectives remove ptrak.jumpflag
