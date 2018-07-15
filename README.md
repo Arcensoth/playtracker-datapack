@@ -1,11 +1,11 @@
 # Playtracker
 Player action tracking with event hooks.
 
-Field           | Value
---------------- | -----
-Category        | Utility
-Namespace       | `playtracker`
-Scorespace      | `ptrak`
+Field       | Value
+----------- | -----
+Category    | Utility
+Namespace   | `playtracker`
+Scorespace  | `ptrak`
 
 ## Scoreboard objectives
 Objective           | Criteria                    | Usage     | Description
