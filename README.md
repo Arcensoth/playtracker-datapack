@@ -127,3 +127,14 @@ Function tag                                                  | Description
 `#playtracker:hooks/player/used/lingering_potion`             | Run by a player when they use a lingering potion.
 `#playtracker:hooks/player/used/snowball`                     | Run by a player when they use a snowball.
 `#playtracker:hooks/player/used/splash_potion`                | Run by a player when they use a splash potion.
+
+### Performance Analysis
+Count | Command
+----- | -------
+18    | `function`
+14    | `tag @s[tag]`
+10    | `execute if entity @s[scores]`
+7     | `execute if entity @s[tag]`
+5     | `tag @s[scores]`
+1     | `execute if entity @a[tag]`
+1     | `execute as @a[tag] at @s run function`

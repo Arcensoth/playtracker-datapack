@@ -10,6 +10,7 @@
 - Optimize polling functions
 - Make common actions more obvious while debugging
 - Rename death events to be consistent with other naming conventions
+- Add performance analysis to readme
 
 # v0.0.8
 - Rename `killed_entity` to just `killed`
