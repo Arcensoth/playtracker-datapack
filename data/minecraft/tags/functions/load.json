@@ -1,5 +1,5 @@
 {
     "values": [
-        "playtracker:module/api/load"
+        "playtracker:module/reload"
     ]
 }

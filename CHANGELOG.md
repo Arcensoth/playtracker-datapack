@@ -1,3 +1,6 @@
+# v0.0.10-dev
+- Use SMF v0.7.0 (for real this time)
+
 # v0.0.9
 - Use SMF v0.7.0
   - Rename objectives to use `.` instead of `_` for namespace separator

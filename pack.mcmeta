@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 1,
-    "description": "\u00A7bPlaytracker\n\u00A77Player action tracking with event hooks.\n\u00A78v0.0.9 for \u00A7eMinecraft 1.13"
+    "description": "\u00A7bPlaytracker\n\u00A77Player action tracking with event hooks.\n\u00A78v0.0.10-dev for Minecraft 1.13\n\u00A77By \u00A7eArcensoth"
   }
 }

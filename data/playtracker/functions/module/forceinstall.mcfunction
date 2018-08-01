@@ -1,7 +1,5 @@
 # playtracker:module/forceinstall
 
-scoreboard objectives add temp dummy
-
 function playtracker:module/api/setup
 
 scoreboard objectives add ptrak.module dummy

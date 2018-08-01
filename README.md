@@ -7,7 +7,8 @@ Category    | Utility
 Namespace   | `playtracker`
 Scorespace  | `ptrak`
 
-## Scoreboard objectives
+## Scoreboard
+### Objectives
 Objective           | Criteria                    | Usage     | Description
 ------------------- | --------------------------- | --------- | -----------
 `ptrak.module`      | `dummy`                     | Read-only | Reserved for SMF.
@@ -35,8 +36,8 @@ Objective           | Criteria                    | Usage     | Description
 `ptrak.usesnoball`  | `used:snowball`             | Read-only | Flag variable for snowball usage. Prefer to use the `playtracker.used.snowball` [entity tag](#entity-tags).
 `ptrak.usesplpot`   | `used:splash_potion`        | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
 
-## Entity tags
-Tag                                   | Description
+## Entity Tags
+Entity Tag                            | Description
 ------------------------------------- | -----------
 `playtracker.debug`                   | Present on players who are debugging the module.
 `playtracker.ignore`                  | Present on players who are not being tracked.
@@ -74,8 +75,8 @@ Tag                                   | Description
 `playtracker.used.snowball`           | Present on players for a single tick when they use a snowball.
 `playtracker.used.splash_potion`      | Present on players for a single tick when they use a splash potion.
 
-## Event hooks
-Function tag                                                  | Description
+## Event Hooks
+Function Tag                                                  | Description
 ------------------------------------------------------------- | -----------
 `#playtracker:hooks/player/blocked_damage`                    | Run by a player when they block damage.
 `#playtracker:hooks/player/changed_dimension`                 | Run by a player when they change dimensions.
@@ -128,7 +129,7 @@ Function tag                                                  | Description
 `#playtracker:hooks/player/used/snowball`                     | Run by a player when they use a snowball.
 `#playtracker:hooks/player/used/splash_potion`                | Run by a player when they use a splash potion.
 
-### Performance Analysis
+## Performance Analysis
 Count | Command
 ----- | -------
 18p   | `function`
