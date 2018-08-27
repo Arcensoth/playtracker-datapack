@@ -37,43 +37,45 @@ Objective           | Criteria                    | Usage     | Description
 `ptrak.usesplpot`   | `used:splash_potion`        | Read-only | Flag variable for splash potion usage. Prefer to use the `playtracker.used.splash_potion` [entity tag](#entity-tags).
 
 ## Entity Tags
-Entity Tag                            | Description
-------------------------------------- | -----------
-`playtracker.debug`                   | Present on players who are debugging the module.
-`playtracker.ignore`                  | Present on players who are not being tracked.
-`playtracker.dead`                    | Present on players who are currently dead.
-`playtracker.dead.started`            | Present on players for a single tick when they die.
-`playtracker.dead.stopped`            | Present on players for a single tick when they respawn.
-`playtracker.resting`                 | Present on players who are currently resting.
-`playtracker.resting.started`         | Present on players for a single tick when they start resting.
-`playtracker.resting.stopped`         | Present on players for a single tick when they stop resting.
-`playtracker.dimension.overworld`     | Present on players who are currently in the overworld.
-`playtracker.dimension.the_end`       | Present on players who are currently in the end.
-`playtracker.dimension.the_nether`    | Present on players who are currently in the nether.
-`playtracker.grounded`                | Present on players who are currently on the ground.
-`playtracker.grounded.started`        | Present on players for a single tick when they hit the ground.
-`playtracker.grounded.stopped`        | Present on players for a single tick when they leave the ground.
-`playtracker.jumping`                 | Present on players for as long as they remain airborne after jumping.
-`playtracker.jumping.started`         | Present on players for a single tick when they jump.
-`playtracker.jumping.stopped`         | Present on players for a single tick when they land from a jump.
-`playtracker.sneaking`                | Present on players who are currently sneaking.
-`playtracker.sneaking.started`        | Present on players for a single tick when they start sneaking.
-`playtracker.sneaking.stopped`        | Present on players for a single tick when they stop sneaking.
-`playtracker.sprinting`               | Present on players who are currently sprinting.
-`playtracker.sprinting.started`       | Present on players for a single tick when they start sprinting.
-`playtracker.sprinting.stopped`       | Present on players for a single tick when they stop sprinting.
-`playtracker.talked_to_villager`      | Present on players for a single tick when they talk to a villager.
-`playtracker.used.bow`                | Present on players for a single tick when they use a bow.
-`playtracker.used.bow.mainhand`       | Present on players for a single tick when they use a bow in their mainhand.
-`playtracker.used.bow.offhand`        | Present on players for a single tick when they use a bow in their offhand.
-`playtracker.used.carrot_on_a_stick`  | Present on players for a single tick when they use a carrot on a stick.
-`playtracker.used.egg`                | Present on players for a single tick when they use an egg.
-`playtracker.used.ender_pearl`        | Present on players for a single tick when they use an ender pearl.
-`playtracker.used.experience_bottle`  | Present on players for a single tick when they use an experience bottle.
-`playtracker.used.fishing_rod`        | Present on players for a single tick when they use a fishing rod.
-`playtracker.used.lingering_potion`   | Present on players for a single tick when they use a lingering potion.
-`playtracker.used.snowball`           | Present on players for a single tick when they use a snowball.
-`playtracker.used.splash_potion`      | Present on players for a single tick when they use a splash potion.
+Entity Tag                                    | Description
+--------------------------------------------- | -----------
+`playtracker.debug`                           | Present on players who are debugging the module.
+`playtracker.ignore`                          | Present on players who are not being tracked.
+`playtracker.dead`                            | Present on players who are currently dead.
+`playtracker.dead.started`                    | Present on players for a single tick when they die.
+`playtracker.dead.stopped`                    | Present on players for a single tick when they respawn.
+`playtracker.resting`                         | Present on players who are currently resting.
+`playtracker.resting.started`                 | Present on players for a single tick when they start resting.
+`playtracker.resting.stopped`                 | Present on players for a single tick when they stop resting.
+`playtracker.dimension.overworld`             | Present on players who are currently in the overworld.
+`playtracker.dimension.the_end`               | Present on players who are currently in the end.
+`playtracker.dimension.the_nether`            | Present on players who are currently in the nether.
+`playtracker.grounded`                        | Present on players who are currently on the ground.
+`playtracker.grounded.started`                | Present on players for a single tick when they hit the ground.
+`playtracker.grounded.stopped`                | Present on players for a single tick when they leave the ground.
+`playtracker.jumping`                         | Present on players for as long as they remain airborne after jumping.
+`playtracker.jumping.started`                 | Present on players for a single tick when they jump.
+`playtracker.jumping.stopped`                 | Present on players for a single tick when they land from a jump.
+`playtracker.sneaking`                        | Present on players who are currently sneaking.
+`playtracker.sneaking.started`                | Present on players for a single tick when they start sneaking.
+`playtracker.sneaking.stopped`                | Present on players for a single tick when they stop sneaking.
+`playtracker.sprinting`                       | Present on players who are currently sprinting.
+`playtracker.sprinting.started`               | Present on players for a single tick when they start sprinting.
+`playtracker.sprinting.stopped`               | Present on players for a single tick when they stop sprinting.
+`playtracker.talked_to_villager`              | Present on players for a single tick when they talk to a villager.
+`playtracker.used.bow`                        | Present on players for a single tick when they use a bow.
+`playtracker.used.bow.mainhand`               | Present on players for a single tick when they use a bow in their mainhand.
+`playtracker.used.bow.offhand`                | Present on players for a single tick when they use a bow in their offhand.
+`playtracker.used.carrot_on_a_stick`          | Present on players for a single tick when they use a carrot on a stick.
+`playtracker.used.carrot_on_a_stick.mainhand` | Present on players for a single tick when they use a carrot on a stick in their mainhand.
+`playtracker.used.carrot_on_a_stick.offhand`  | Present on players for a single tick when they use a carrot on a stick in their offhand.
+`playtracker.used.egg`                        | Present on players for a single tick when they use an egg.
+`playtracker.used.ender_pearl`                | Present on players for a single tick when they use an ender pearl.
+`playtracker.used.experience_bottle`          | Present on players for a single tick when they use an experience bottle.
+`playtracker.used.fishing_rod`                | Present on players for a single tick when they use a fishing rod.
+`playtracker.used.lingering_potion`           | Present on players for a single tick when they use a lingering potion.
+`playtracker.used.snowball`                   | Present on players for a single tick when they use a snowball.
+`playtracker.used.splash_potion`              | Present on players for a single tick when they use a splash potion.
 
 ## Event Hooks
 Function Tag                                                  | Description
@@ -121,6 +123,8 @@ Function Tag                                                  | Description
 `#playtracker:hooks/player/used/bow/mainhand`                 | Run by a player when they use a bow from their mainhand.
 `#playtracker:hooks/player/used/bow/offhand`                  | Run by a player when they use a bow from their offhand.
 `#playtracker:hooks/player/used/carrot_on_a_stick`            | Run by a player when they use a carrot on a stick.
+`#playtracker:hooks/player/used/carrot_on_a_stick/mainhand`   | Run by a player when they use a carrot on a stick from their mainhand.
+`#playtracker:hooks/player/used/carrot_on_a_stick/offhand`    | Run by a player when they use a carrot on a stick from their offhand.
 `#playtracker:hooks/player/used/egg`                          | Run by a player when they use an egg.
 `#playtracker:hooks/player/used/ender_pearl`                  | Run by a player when they use an ender pearl.
 `#playtracker:hooks/player/used/experience_bottle`            | Run by a player when they use an experience bottle.

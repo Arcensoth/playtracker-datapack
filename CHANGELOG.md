@@ -1,5 +1,6 @@
 # v0.0.10-dev
 - Use SMF v0.10.0
+- Add offhand hook for carrot on a stick
 
 # v0.0.9
 - Use SMF v0.7.0
