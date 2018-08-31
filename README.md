@@ -7,8 +7,12 @@ Category    | Utility
 Namespace   | `playtracker`
 Scorespace  | `ptrak`
 
+- [Scoreboard](#scoreboard)
+- [Entity Tags](#entity-tags)
+- [Event Hooks](#event-hooks)
+- [Performance Analysis](#performance-analysis)
+
 ## Scoreboard
-### Objectives
 Objective           | Criteria                    | Usage     | Description
 ------------------- | --------------------------- | --------- | -----------
 `ptrak.module`      | `dummy`                     | Read-only | Reserved for SMF.
